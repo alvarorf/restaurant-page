@@ -1,4 +1,4 @@
-# Coffee way -js
+# Coffee way -Javascript
 
 ## Home
 ![Home](./screenshot-home.png)
