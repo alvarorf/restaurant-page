@@ -88,7 +88,144 @@ const renderMenu = (homelink, menulink, contactlink) => {
   menuList.appendChild(menuitem5);
   menuList.appendChild(menuitem6);
 
+  menuitem1.innerHTML = `<div class="item-img">
+              <img src="${coffee2}" alt="">
+            </div>
+            <div class="item-desc">
+              <div class="menu-price">
+                <h2>Capuccino</h2>
+                <h2>2.99$</h2>
+              </div>
+              <span>
+              Whether you choose a cup or a mug, you just can't beat the taste of The Coffee Way's cappuccino. A shot of espresso with textured milk poured immediately, resulting in the milk crema separating in the cup.
+              This creamy traditional coffee is then garnished with a light dusting of chocolate
+              </span>
+              <div class="item-cal">
+                <div class="menu-calification">
+                  <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                  <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                  <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                  <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                  <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                </div>
+                <div class="add-item"> + </div>
+              </div>
+            </div>`;
 
+  menuitem2.innerHTML = `<div class="item-img">
+            <img src = "${coffee3}" alt = "">
+          </div>
+          <div class="item-desc">
+          <div class="menu-price">
+          <h2>Americano</h2>
+          <h2>2.49$</h2>
+          </div>
+            <span>
+            A classic long black coffee with The Coffee Way's Signature Blend. As you'd expect, it's topped with the smoothest espresso crema around.
+            </span>
+            <div class="item-cal">
+              <div class="menu-calification">
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-half" style="color: #F5A00F; font-size: 20px;"></span>
+              </div>
+              <div class="add-item"> + </div>
+            </div>
+          </div>`;
+
+  menuitem3.innerHTML = `<div class="item-img">
+            <img src = "${coffee4}" alt = "">
+          </div>
+          <div class="item-desc">
+            <div class="menu-price">
+              <h2>Espresso</h2>
+              <h2>2.49$</h2>
+            </div>
+            <span>
+             Our signature dark roast blend combines dark chocolate with a hard body and rich smoky accents.
+            </span>
+            <div class="item-cal">
+              <div class="menu-calification">
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+              </div>
+              <div class="add-item"> + </div>
+            </div>
+          </div>`;
+
+  menuitem4.innerHTML = `<div class="item-img">
+            <img src = "${coffee5}" alt = "">
+          </div>
+          <div class="item-desc">
+            <div class="menu-price">
+              <h2>Macchiato</h2>
+              <h2>2.99$</h2>
+            </div>
+            <span>
+            A classic short black espresso with a dollop of milk crema to make the smoothest short black even smoother. You can also ask for a long macchiato
+            </span>
+            <div class="item-cal">
+              <div class="menu-calification">
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-half" style="color: #F5A00F; font-size: 20px;"></span>
+              </div>
+              <div class="add-item"> + </div>
+            </div>
+          </div>`;
+
+  menuitem5.innerHTML = `<div class="item-img">
+            <img src = "${coffee6}" alt = "">
+          </div>
+          <div class="item-desc">
+            <div class="menu-price">
+              <h2>Mocha</h2>
+              <h2>3.49$</h2>
+            </div>
+            <span>
+            The mocha is a superb mix of espresso and chocolate with added creamy texture milk and garnished with chocolate powder.
+            </span>
+            <div class="item-cal">
+              <div class="menu-calification">
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+              </div>
+              <div class="add-item"> + </div>
+            </div>
+          </div>`;
+
+  menuitem6.innerHTML = `<div class="item-img">
+            <img src = "${coffee7}" alt = "">
+          </div>
+          <div class="item-desc">
+            <div class="menu-price">
+              <h2>Latte</h2>
+              <h2>3.99$</h2>
+            </div>
+            <span>
+            Traditional espresso with textured milk ('latte' means milk) and a delicate layer of milk crema on top. The flavour is slightly milder than a flat white as a greater volume of textured milk is added.
+            </span>
+            <div class="item-cal">
+              <div class="menu-calification">
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-fill" style="color: #F5A00F; font-size: 20px;"></span>
+                <span class="iconify" data-inline="false" data-icon="bi:star-half" style="color: #F5A00F; font-size: 20px;"></span>
+              </div>
+              <div class="add-item"> + </div>
+            </div>
+          </div>`;
 };
 
 export default (renderMenu);
