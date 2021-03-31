@@ -3,7 +3,6 @@ import coffeeimg from './assets/coffee.png';
 const renderContact = (homelink, menulink, contactlink) => {
   const content = document.querySelector('#content');
 
-  
   const header = document.createElement('header');
   const h2Header = document.createElement('h2');
   const ul = document.createElement('ul');
@@ -93,7 +92,6 @@ const renderContact = (homelink, menulink, contactlink) => {
           <input type="text">`;
   formText.innerHTML = `<span>Message: </span>
           <input type="text">`;
-
 };
 
 export default (renderContact);

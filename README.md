@@ -1,5 +1,10 @@
 # Coffee way -js
 
+## Home
+![Home](./screenshot-home.png)
+
+## Menu
+![Home](./screenshot-menu.png)
 
 ## Usage
 

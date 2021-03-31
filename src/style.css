@@ -112,7 +112,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   color: #434343;
-  padding: 0 100px 50px ;
+  padding: 0 100px 50px;
   align-items: center;
 }
 
@@ -154,7 +154,7 @@ button:hover {
   height: 220px;
   padding-top: 20px;
   justify-content: space-between;
-  box-shadow: 11px 15px 37px -11px rgba(143, 143, 143, 0.76)
+  box-shadow: 11px 15px 37px -11px rgba(143, 143, 143, 0.76);
 }
 
 .menu-price {
@@ -163,7 +163,6 @@ button:hover {
   justify-content: space-between;
   font-size: 14px;
 }
-
 
 .item-desc span {
   padding: 10px;

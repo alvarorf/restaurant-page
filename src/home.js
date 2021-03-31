@@ -15,7 +15,6 @@ const renderHome = (homelink, menulink, contactlink) => {
   const li3 = document.createElement('li');
   const li4 = document.createElement('li');
 
-
   content.appendChild(wraptop);
   wraptop.appendChild(header);
   header.appendChild(h2Header);
@@ -25,7 +24,6 @@ const renderHome = (homelink, menulink, contactlink) => {
   ul.appendChild(li3);
   ul.appendChild(li4);
   li1.appendChild(btn);
-
 
   h2Header.innerHTML = `<span class="iconify" data-inline="false" data-icon="noto-hot-beverage" style="font-size: 30px;"></span>
                   Coffee Way`;
@@ -92,6 +90,15 @@ const renderHome = (homelink, menulink, contactlink) => {
   boxDesc3.classList.add('box-desc');
   box.appendChild(boxDesc3);
 
+  boxDesc1.innerHTML = `<span class="iconify" data-inline="false" data-icon="bi:clock-fill" style="color: #F5A00F; font-size: 40px;"></span>
+  <h2>Today 8:00 - 20:00</h2>
+  <span>Working hours</span>`;
+  boxDesc2.innerHTML = `<span class="iconify" data-inline="false" data-icon="vaadin:location-arrow-circle" style="color: #F5A00F; font-size: 40px;"></span>
+  <h2>Random street 300</h2>
+  <span>Get directions</span>`;
+  boxDesc3.innerHTML = `<span class="iconify" data-inline="false" data-icon="el:phone-alt" style="color: #F5A00F; font-size: 40px;"></span>
+  <h2>+57 (316) 251 55 26</h2>
+  <span>Call Online</span>`;
 };
 
 export default (renderHome);
