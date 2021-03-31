@@ -107,3 +107,36 @@ button:hover {
   background-image: url(../src/assets/background6.png);
   background-size: cover;
 }
+
+
+.menu {
+  display: flex;
+
+  align-items: center;
+}
+
+.menu-desc {
+  margin: 50px 0;
+  padding-bottom: 20px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menuitem {
+  background-color: white;
+  border-top-right-radius: 50px;
+}
+
+.item-img {
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.item-img img {
+  width: 100%;
+  height: 250px;
+}
