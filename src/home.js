@@ -1,6 +1,6 @@
 import coffeeimg from './assets/coffees.png';
 
-function renderHome (homelink, menulink, contactlink) {
+const renderHome = (homelink, menulink, contactlink) => {
   const content = document.querySelector('#content');
 
   const wraptop = document.createElement('div');

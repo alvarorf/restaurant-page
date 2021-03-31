@@ -1,6 +1,6 @@
 import coffeeimg from './assets/coffee.png';
 
-function renderContact (homelink, menulink, contactlink) {
+const renderContact = (homelink, menulink, contactlink) => {
   const content = document.querySelector('#content');
 
 

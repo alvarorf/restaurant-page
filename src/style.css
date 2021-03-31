@@ -103,3 +103,7 @@ button:hover {
   width: 100%;
 }
 
+.wraptop {
+  background-image: url(../src/assets/background6.png);
+  background-size: cover;
+}
