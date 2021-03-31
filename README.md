@@ -1,20 +1,22 @@
-## Restaurant page -js
+# Coffee way -js
 
 
 ## Usage
 
 - Clone the repo "https://github.com/alvarorf/restaurant-page.git".
+- Run "npm install" to install the required dependencies.
 - Open the page.
 
 
 ## Technologies
 
 - JavaScript
+- Webpack
 - CSS
 - HTML
 - VSCode
 
-## Authors
+## Author
 
 👤 **Alvaro Ruiz**
 
